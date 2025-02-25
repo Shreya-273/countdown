@@ -1,0 +1,49 @@
+*{
+    padding: 2px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@255,100..900;1,100..900&display=swap');
+.main{
+width: 100%;
+height: 100vh;
+background:url(background)center center;
+background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255,0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.title{
+    margin-top:20px;
+    color: black;
+    font-size:20px;
+    text-align: center;
+}
+.col{
+width: 699px;
+height: 499px;
+margin:  10px auto;
+display:flex;
+}
+
+.col div{
+width: 400px;
+text-align: center;
+}
+
+input{
+    width: 90%;
+    height: 60px;
+    background-color: rgba(255, 255, 255,0.7);
+    border-color: transparent;
+    border-radius: 10px;
+    font-size: 55px;
+    text-align: center;
+}
